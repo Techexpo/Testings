@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+* 				{ padding:0; margin:0; outline:none; line-height:normal;}
+html			{ overflow-y:scroll;}
+html, body 		{ height: 100%;}
+html, body, form{ height: 100%;}
+form			{ margin:0; padding:0}
+html* body		{ height: 100%;}
+html>body		{ height:100%;}
+body:before 	{ content:""; height:100%; float:left; width:0; margin-top:-32767px;}					  
+body			{ margin:0; padding:0; line-height:20px; font-family: "Segoe UI"; font-size:14px; line-height:20px; color:#595959; background:url(../images/bg_image.jpg) no-repeat fixed;  background-size:auto 100%; background-attachment:fixed; min-width:980px;}
+
+*, *:before, *:after, div, input, textarea, select, a, ul, li, span, p, h1, h2, h3, h4, h5, h6, iframe, img, label
+{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.sizeing,.size			{ -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  						  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+					  		box-sizing: border-box;         /* Opera/IE 8+ */}
+							
+/*
+fonts.css from the YUI Library: developer.yahoo.com/yui/
+Please refer to developer.yahoo.com/yui/fonts/ for font sizing percentages
+*/
+html { -webkit-font-smoothing: antialiased; min-height:100%;  }
+body { font:13px; *font-size:small; *font:x-small; }
+table { font-size:inherit; font:100%; }
+select, input, textarea { font:99%; }
+
+/* align checkboxes, radios, text inputs with their label */
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; *vertical-align: baseline; }
+.ie6 input { vertical-align: text-bottom; }
+.ie7 img { -ms-interpolation-mode: bicubic; }
+
+
+/* Default Css */
+
+h1						{ }
+h2						{ }
+h3						{ }
+ul, li, ol				{ list-style:none;}
+p						{ line-height:normal;}
+a, a img				{ text-decoration:none; border:none; outline:none;}
+a:focus					{ border:none;  border:none; outline:none;}	
+
+
+.fl						{ float:left;}
+.fr						{ float:right;}
+.clear					{ clear:both;}
+.show					{ display:block !important;}
+.hide					{ display:none !important;}
+/* Overflow css */
+.ofh					{ overflow:hidden !important;}
+.ofys					{ overflow-y:scroll !important;}
+.ofa					{ overflow:auto !important;}
+.ofv					{ overflow:visible;}
+
+
+/* Frame */
+#wrapper				{ min-height:100%;}
+#main 					{ margin:0 auto;;min-height:100%;}
+#header					{ background-color:red; }
+#footer					{ background-color:red; height:50px;}
+.wrap					{ max-width:1024px; margin:auto;}
+
+
